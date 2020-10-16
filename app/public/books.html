@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+      <!-- My CSS -->
+      <link rel="stylesheet" href="./css/css.css">
+     <link rel="stylesheet" href="./css/tablesort.css">
+
+    <title>Books</title>
+
+
+      <style>
+
+      </style>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon " ><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+</svg></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="userinfo.html">User Information</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link active" href="books.html">Books</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="comments.html">Comments</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+      <main>
+
+          <div class='row container-fluid specmarg2'>
+              <div class = 'col-xs-2 col-sm-2 col-md-2 col-lg-2'>
+            <a href="https://www.nicepng.com/maxp/u2w7t4u2w7u2a9o0/"><img src="img/book.png" class="pic"></a>
+              </div>
+             <div class = 'col-xs-8 col-sm-8 col-md-8 col-lg-8'>
+             <h1 class='center display-4'>Books &nbsp;<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-book" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M1 2.828v9.923c.918-.35 2.107-.692 3.287-.81 1.094-.111 2.278-.039 3.213.492V2.687c-.654-.689-1.782-.886-3.112-.752-1.234.124-2.503.523-3.388.893zm7.5-.141v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+</svg></h1>
+              </div>
+              <div class = 'col-xs-2 col-sm-2 col-md-2 col-lg-2'>
+              <a href="https://www.nicepng.com/maxp/u2w7t4u2w7u2a9o0/"><img src="img/book.png" class="pic2"> </a>
+              </div>
+              </div>
+
+    <div class="table">
+   <table class="center" id="taskTable">
+  <thead>
+    <tr>
+      <th scope="col">Title</th>
+      <th scope="col">Author(s)</th>
+      <th scope="col">Year Published</th>
+      <th scope="col">Publisher</th>
+      <th scope="col" >Page Count</th>
+      <th scope="col">MSRP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">The Little Prince (Le Petit Prince)</th>
+      <td>Antoine de Saint-Exupéry</td>
+      <td data-sort='3'>1943</td>
+      <td>Reynal & Hitchcock</td>
+      <td data-sort='1'>96</td>
+      <td data-sort='2'>$10.79</td>
+    </tr>
+    <tr>
+      <th scope="row">Harry Potter and the Philosopher's Stone</th>
+      <td>J.K. Rowling</td>
+      <td data-sort='5'>1997</td>
+      <td>Scholastic Corporation</td>
+      <td data-sort='2'>223</td>
+      <td data-sort='5'>$34.40</td>
+    </tr>
+    <tr>
+      <th scope="row">The Hobbit</th>
+      <td>J.R.R. Tolkien</td>
+      <td data-sort='1'>1937</td>
+      <td>Allen & Unwin</td>
+      <td data-sort='5'>310</td>
+      <td data-sort='3'>$14.99</td>
+    </tr>
+      <tr>
+      <th scope="row">And Then There Were None</th>
+      <td>Agatha Christie</td>
+      <td data-sort='2'>1939</td>
+      <td>Collins Crime Club</td>
+      <td data-sort='3'>272</td>
+      <td data-sort='1'>$9.99</td>
+    </tr>
+      <tr>
+      <th scope="row">To Kill a Mockingbird</th>
+      <td>Harper Lee</td>
+      <td data-sort='4'>1960</td>
+      <td>J. B. Lippincott & Co.</td>
+      <td data-sort='4'>281</td>
+      <td data-sort='4'>$15.99</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+          <div class="row container-fluid">
+
+      <form class="divdec row" id="formformat" >
+
+
+<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-4'>
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input type="text" class="form-control" id="title" aria-describedby="emailHelp" placeholder="Enter title">
+  </div>
+  <div class="form-group">
+    <label for="author">Author</label>
+    <input type="text" class="form-control" id="author" placeholder="Enter Author">
+  </div>
+</div>
+<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-4'>
+   <div class="form-group">
+    <label for="yearpublished">Year Published</label>
+    <input type="number" class="form-control" id="yearpublished" aria-describedby="emailHelp" placeholder="Enter Year Published">
+  </div>
+           <div class="form-group">
+    <label for="publisher">Publisher</label>
+    <input type="text" class="form-control" id="publisher" aria-describedby="emailHelp" placeholder="Enter Publisher">
+  </div>
+</div>
+<div class = 'col-xs-12 col-sm-12 col-md-12 col-lg-4'>
+           <div class="form-group">
+    <label for="pagecount" >Page Count</label>
+    <input type="number" class="form-control" id="pagecount" aria-describedby="emailHelp" placeholder="Page Count">
+  </div>
+
+    <label for="MSRP">MSRP</label>
+           <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text">$</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="MSRP">
+  <div class="input-group-append">
+  </div>
+</div>
+</div>
+  <button type="submit">Add Book</button>
+
+</form>
+               </div>
+<footer>
+Book Image Source: <a href="https://www.nicepng.com/maxp/u2w7t4u2w7u2a9o0/" class='link'>nicepng.com</a>
+</footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="./js/tablesort.min.js"></script>
+          <script>
+              // Tablesort plugin from http://tristen.ca/tablesort/demo
+  new Tablesort(document.getElementById('taskTable'));
+</script>
+
+          </main>
+  </body>
+</html>

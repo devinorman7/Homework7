@@ -1,0 +1,149 @@
+body {
+    background-color: #1f2833;
+    color: white;
+
+}
+
+
+
+
+.center {
+    text-align: center;
+}
+
+.divdec {
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 10px;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 83px;
+}
+
+
+
+nav {
+    background-color: #66fcf1;
+}
+
+a {
+    color: #45a29e;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.active {
+    color:black;
+}
+
+th, tr, table {
+    color: white;
+    background-color: black;
+    text-align: left;
+}
+
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    border: 10px solid white;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-radius: 10px;
+}
+
+.pic {
+    width: 100%;
+        position:absolute;
+}
+
+.pic2 {
+    width: 100%;
+    transform: scaleX(-1);
+    position:absolute;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .link {
+    color: #45a29e;
+}
+
+    .link:hover {
+    color: #66fcf1
+}
+
+#center {
+    text-align: center;
+}
+
+.homepic {
+     width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.specmarg2 {
+    margin-top: 10px;
+}
+
+
+
+header {
+color: black;
+text-align: center;
+margin-bottom: 30px;
+padding-bottom:
+}
+    #spacing {
+        padding-bottom: 230px;
+    }
+
+    #formformat {
+  padding:20px;
+}
+
+button {
+   width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #66fcf1;
+  color: black;
+  border-width: 1px;
+  border-color: white;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+
+        button:hover {
+            background-color: #45a29e
+        }
+        ul,li {
+            color: black;
+        }
+
+        .userinfo {
+            background-color: #0b0c10;
+            color: white;
+            border-width: 2px;
+            border-color: white;
+
+        }
